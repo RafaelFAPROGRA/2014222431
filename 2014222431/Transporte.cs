@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace _2014222431
 {
-    class Program
+    public class Transporte: Servicio
     {
-        static void Main(string[] args)
+        public override void ServicioTipo()
         {
-            
+            Console.WriteLine("Servicio de Transporte");
+
         }
     }
 }

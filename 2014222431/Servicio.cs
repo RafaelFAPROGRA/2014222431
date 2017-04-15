@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace _2014222431
 {
-    class Tripulacion: Empleado
+    public abstract class Servicio
     {
+        public string TipoServicio { get; set; }
+        public abstract void ServicioTipo();
     }
 }

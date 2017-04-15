@@ -8,5 +8,6 @@ namespace _2014222431
 {
     class Lugar
     {
+        string Ciudad { get; set; }
     }
 }

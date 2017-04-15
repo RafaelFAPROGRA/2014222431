@@ -8,5 +8,9 @@ namespace _2014222431
 {
     class Administrativo: Empleado
     {
+        public int EmpleadoID { get; set; }
+        public string Nombre { get; set; }
+        public string Apellido { get; set; }
+        public string Cargo { get; set; }
     }
 }   

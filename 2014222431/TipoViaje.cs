@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace _2014222431
 {
-    class Venta
+    class TipoViaje
     {
+        string TipoBus { get; set; }
+
     }
 }

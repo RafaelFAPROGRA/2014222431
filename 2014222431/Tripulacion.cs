@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace _2014222431
 {
-    class Empleado
+    class Tripulacion: Empleado
     {
         public int EmpleadoID { get; set; }
         public string Nombre { get; set; }
         public string Apellido { get; set; }
-        public Empleado()
-        { }
-        public Empleado()
+        public string Cargo { get; set; }
+
+
+
+
     }
 }

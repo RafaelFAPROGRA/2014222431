@@ -8,5 +8,8 @@ namespace _2014222431
 {
     class Cliente
     {
+        public string DNI { get; set; }
+        public string NombreCliente { get; set; }
+        public string ApellidoCliente { get; set; }
     }
 }
