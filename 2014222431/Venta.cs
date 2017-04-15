@@ -13,8 +13,42 @@ namespace _2014222431
         private List<Servicio> _Servicio;
         private List<TipoComprobante> _TipoComprobante;
         private List<TipoPago> _TipoPago;
-   
 
+        public List<Cliente> Cliente
+        {
+            get { return _Cliente; }
+            private set { _Cliente = value; }
+        }
+        public List<Administrativo> Administrativo
+        {
+            get { return _Administrativo; }
+            private set { _Administrativo = value; }
+        }
+        public List<Servicio> Servicio
+        {
+            get { return _Servicio; }
+            private set { _Servicio = value; }
+        }
+        public List<TipoPago> TipoPago
+        {
+            get { return _TipoPago; }
+            private set { _TipoPago = value; }
+        }
+        public List<TipoComprobante> TipoComprobante
+        {
+            get { return _TipoComprobante; }
+            private set { _TipoComprobante = value; }
+        }
+
+        public Venta()
+        {
+            Cliente = new List<Cliente>();
+            Administrativo = new List<Administrativo>();
+            Servicio = new List<Servicio>();
+            TipoComprobante = new List<TipoComprobante>();
+            TipoPago = new List<TipoPago>();
+
+        }
         public void AgregarTipoBus(string TipoViaje)
         {
            

@@ -13,5 +13,24 @@ namespace _2014222431
             Console.WriteLine("Servicio de Transporte");
 
         }
+        private List<Bus> _Bus;
+        public List<Bus> Bus
+        {
+            get
+            {
+                return _Bus;
+            }
+            set
+            {
+                if (value.Count == 50)
+                { _Bus = value; }
+
+            }
+
+        }
+        public Bus(List<Bus> bus)
+        {
+            Bus = bus;
+        }
     }
 }

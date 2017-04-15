@@ -8,5 +8,6 @@ namespace _2014222431
 {
     class TipoPago
     {
+        string costo { get; set; }
     }
 }
